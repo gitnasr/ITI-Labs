@@ -16,7 +16,7 @@ int main()
     // Mantdotry Check because we can't dived by ZERO :D
     if (a == 0) {
 
-        printf("This is not a quadratic equation.\n");
+        printf("We can't dived by ZERO :D .\n");
 
         return 0;
     }
