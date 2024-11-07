@@ -57,4 +57,6 @@ int main()
 
     printf("You Max Number is %d \n", max);
 
+    return 0;
+
 }
