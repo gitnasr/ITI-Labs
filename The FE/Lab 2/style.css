@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#heroSection { 
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color:white;
+    padding: 50px;
+}
+
+#heroSection h1 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#heroSection p {
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+.btn-2 {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+#heroGrid {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+
+}
+
+.hero-item { 
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #f8f8f8;
+}
+
+#mainSection {
+    padding: 50px;
+}
+
+#mainHeader h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-item { 
+    display: inline-block;
+    width: 40%;
+    padding: 20px;
+    background: transparent;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #f8f8f8;
+    margin: 0;
+    
+}
+
+.main-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#contactFormSection { 
+    padding: 50px;
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+
+}
+
+#contactForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+}
+
+#contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f8f8f8;
+    border-radius: 5px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+
+.navabr { 
+    position: fixed;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background: white;
+    height: 30px;
+}
+
+
+
+.navabr img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
