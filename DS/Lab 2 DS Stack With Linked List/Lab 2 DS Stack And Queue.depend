@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1733843026 source:c:\users\nasr\documents\lab 2 ds stack and queue\stacklinkedlist.c
+	<string.h>
+
+1733848576 source:c:\users\nasr\documents\lab 2 ds stack and queue\main.c
+	<stdio.h>
+	<windows.h>
+	"StackLinkedList.c"
+	<string.h>
+	<conio.h>
+
+1733848371 c:\users\nasr\documents\lab 2 ds stack and queue\stacklinkedlist.c
+	<string.h>
+

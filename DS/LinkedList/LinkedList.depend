@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1733730614 source:c:\users\nasr\documents\linkedlist\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
+1733773152 source:c:\users\nasr\documents\linkedlist\linkedlist.c
+	<stdio.h>
+	<string.h>
+
+1733773139 source:c:\users\nasr\documents\linkedlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	"LinkedList.h"
+
+1733730614 c:\users\nasr\documents\linkedlist\menu.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+
+1733739119 c:\users\nasr\documents\linkedlist\linkedlist.h
+
