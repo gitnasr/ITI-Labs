@@ -81,6 +81,12 @@ for (let index = 0; index < divs.length; index++) {
 
 function showCard(id) {
 	var overlay = document.createElement("div");
+	overlay.addEventListener("click", function (event) {
+		if (event.target === overlay) {
+			overlay.remove();
+		}
+		
+	});
 	overlay.classList.add("overly");
     overlay.id = id;
 
@@ -139,6 +145,7 @@ function goPrev(id) {
 		showCard(divs.length);
 	}
 }
+
 document.addEventListener("keyup", function (event) {
 	var isOverlay = document.querySelector(".overly");
 	if (!isOverlay) {
