@@ -122,9 +122,7 @@ function showCard(id) {
 
 	document.body.appendChild(overlay);
 
-	overlay.addEventListener("click", function () {
-		return;
-	});
+	
 }
 
 function goNext(id) {
