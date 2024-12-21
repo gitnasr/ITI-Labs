@@ -7,11 +7,11 @@ int main()
     int test[] = {
         -49, 4, 5, 8, 245, 1, 90, 3, 64, 6, 9, -1, 0, 23, 300};
     int n = sizeof(test) / sizeof(int);
-    MergeSort(test, 0, n-1);
+    MergeSort(test, 0, n - 1);
     for (int i = 0; i < n; i++)
     {
         int ele = test[i];
-        printf("%d \n", ele);
+        printf("%d,", ele);
     }
 
     return 0;
